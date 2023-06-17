@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "art_pictures",
+  "info": {
+    "singularName": "art-picture",
+    "pluralName": "art-pictures",
+    "displayName": "art-pictures",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "arttitle": {
+      "type": "string"
+    },
+    "artmedia": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "artdate": {
+      "type": "date"
+    },
+    "artdesc": {
+      "type": "richtext"
+    },
+    "imgurl": {
+      "type": "string"
+    }
+  }
+}

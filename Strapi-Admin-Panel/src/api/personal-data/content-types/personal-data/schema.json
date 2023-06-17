@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "personal_datas",
+  "info": {
+    "singularName": "personal-data",
+    "pluralName": "personal-datas",
+    "displayName": "personal-data",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "artist_endname": {
+      "type": "string"
+    },
+    "artist_pic": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "artist_profile": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "about_me": {
+      "type": "text"
+    },
+    "artist_instagram": {
+      "type": "string"
+    },
+    "artist_twitter": {
+      "type": "string"
+    },
+    "artist_facebook": {
+      "type": "string"
+    },
+    "artist_firstname": {
+      "type": "string"
+    },
+    "artist_pic_url": {
+      "type": "string"
+    },
+    "artist_profile_url": {
+      "type": "string"
+    }
+  }
+}
